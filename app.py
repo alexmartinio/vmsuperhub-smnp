@@ -67,6 +67,7 @@ def get_wifi_details():
     # snmp_get('1.3.6.1.4.1.4115.1.20.1.1.3.42')
     # walk('1.3.6.1.4.1.4115.1.20.1.1.3.42')
     # snmp_walk(arris_router_mib)
+    snmp_walk('1.3.6.1.4.1.4115.1.20.1.1.5.20')
 
 
 cookie = get_login_cookie()
